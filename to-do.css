@@ -18,6 +18,7 @@
     box-sizing: border-box;
     font-family: 'montserrat', sans-serif;
 }
+
 input:not([type ="radio"]):not([type ="checkbox"]), button{
     appearance: none;
     border: none;
@@ -199,4 +200,30 @@ input:checked ~ .bubble::after{
 .todo-item.done .todo-content input{
     text-decoration: line-through;
     color: var(--grey);
+}
+
+
+
+@media screen and (min-width: 640px){
+    main{
+        margin: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    main{
+        margin: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    main{
+        margin: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
