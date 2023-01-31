@@ -85,6 +85,7 @@ h4{
 
 .todo-list .todo-item{
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
     padding: 1rem;
@@ -106,6 +107,8 @@ h4{
 .todo-item .todo-content input{
     color: var(--dark);
     font-size: 1.125rem;
+    width: 80%;
+    overflow: scroll;
 }
 
 .todo-item .actions{
